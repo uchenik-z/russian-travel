@@ -1,0 +1,6 @@
+.place__website {
+  max-width: 456px;
+  color: #FFFFFF;
+  grid-area: website;
+  align-self: end;
+}
