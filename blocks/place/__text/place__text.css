@@ -2,3 +2,22 @@
   max-width: 484px;
   grid-area: text;
 }
+
+@media screen and (max-width: 1024px){
+  .place__text {
+    max-width: 456px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .place__text {
+    max-width: 352px;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .place__text {
+    max-width: 288px;
+    margin: 0 16px;
+  }
+}

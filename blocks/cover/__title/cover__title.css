@@ -9,3 +9,11 @@
   text-align: center;
   color: #FFFFFF;
 }
+
+@media screen and (max-width: 320px){
+  .cover__title {
+    max-width: 255px;
+    font-size: 32px;
+    line-height: 1.09;
+  }
+}
