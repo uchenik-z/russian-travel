@@ -19,6 +19,17 @@
   }
 }
 
+@media screen and (max-width: 600px){
+  .place {
+    gap: 37px;
+    grid-template-areas:
+    "title"
+    "website"
+    "image"
+    "text";
+  }
+}
+
 @media screen and (max-width: 320px){
   .place {
     gap: 32px;

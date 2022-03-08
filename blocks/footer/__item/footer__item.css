@@ -6,6 +6,13 @@
   gap: 18px;
 }
 
+@media screen and (max-width: 650px){
+  .footer__item {
+    flex-direction: column;
+    gap: 32px;
+  }
+}
+
 @media screen and (max-width: 320px){
   .footer__item {
     flex-direction: column;
